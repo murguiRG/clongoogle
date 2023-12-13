@@ -1,0 +1,40 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+header
+{   display: flex;
+    justify-self: center;
+    width: 95%;
+    justify-content: flex-end;    
+    margin-top: 5%;
+}
+#nav-items
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+}
+#title
+{
+    display: flex;
+    width: 8em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1
+{
+    font-size: 4em;
+    font-family: 'Poppins', sans-serif;
+}
+input
+{
+    width: 100%;
+    border-radius: 30px;
+    height: 2.3em;
+}
